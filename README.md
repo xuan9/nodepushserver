@@ -1,4 +1,4 @@
-# nodepushserver
+# simple-push-server
 A simple web server that sends push notification to apps/web etc, using the [node-pushnotification](https://github.com/appfeel/node-pushnotifications) library.
 
 
