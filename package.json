@@ -1,6 +1,6 @@
 {
-  "name": "nodepushserver",
-  "displayName": "Node Push Server",
+  "name": "simple-push-server",
+  "displayName": "A Simple Node Push Server",
   "version": "0.3.0",
   "scripts": {
     "start": "node Server.js",
