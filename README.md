@@ -15,5 +15,5 @@ npm run start
 # Configuration
 Configure the push accounts in the [Settings.js](https://github.com/xuan9/nodepushserver/blob/main/Settings.js) and [.dev](https://github.com/xuan9/nodepushserver/blob/main/.env) file.
 
-## See the [node-pushnotification](https://github.com/appfeel/node-pushnotifications) libray page for the data/settings options.
+## See the [node-pushnotification](https://github.com/appfeel/node-pushnotifications) library page for the data/settings options.
 
