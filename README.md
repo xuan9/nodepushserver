@@ -4,7 +4,7 @@ A simple web server that sends push notification to apps/web etc, using the [nod
 
 ## So can send pushes by posting to the server like this:
 ```bash
-curl -v http://localhost:8000/send-message -d '{"sender":"testing", "registrationIds":["b2d0e95bfce054a3d220da12280cfdbb15274a1a9e5a02e5618c72b6ee32d0e2b"], "data":{"topic":"com.whatever.test","mydata":"12341234","aps":{"alert":"hello"}}}' -H "Content-Type: application/json"
+curl -v http://localhost:8000/send-message -d '{"sender":"testing", "registrationIds":["b2d0e95bfce054a3d220da12280cfdbb15274a1a9e5a02e5618c72b6ee32d0e2b"], "data":{"topic":"com.whatever.test","custom":{"mydata":"12341234","anotherdata":"abcd"},"aps":{"alert":"hello"}}}' -H "Content-Type: application/json"
 ```
 ## Install
 ```bash
