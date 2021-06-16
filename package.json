@@ -1,7 +1,7 @@
 {
   "name": "simple-push-server",
   "displayName": "A Simple Node Push Server",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "scripts": {
     "start": "node Server.js",
     "test": "jest"
