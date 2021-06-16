@@ -17,3 +17,6 @@ Configure the push accounts in the [Settings.js](https://github.com/xuan9/nodepu
 
 ## See the [node-pushnotification](https://github.com/appfeel/node-pushnotifications) library page for the data/settings options.
 
+
+## Customize
+The server is built by express.js, so it's easy to add middlewares for auth, logging etc for production.
